@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: goldenrod;
+    background-color: #000000;
+    height: 10vh;
+}
+
+.nav a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.nav a:hover {
+    color: yellow;
+}
+
+.body_class {
+    display: flex;
+    background-color: skyblue;
+    height: max-content;
+    width: 100%;
+    background-image: url("./images/hero-background-15.jpg");
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+}
+
+/* .body_class .filters {
+    background-color: white;
+    height: 90%;
+} */
+
+.body_class .img1 {
+    margin: auto;
+    display: flex;
+    font-size: 2em;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 7em;
+    height: max-content;
+}
+
+.body_class .img1 p {
+    color: aliceblue;
+}
